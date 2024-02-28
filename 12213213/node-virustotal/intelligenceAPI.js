@@ -1,7 +1,7 @@
 "use strict";
 const request = require("request");
 const intelAPI = function(){
-  var apiKey = "e2513a75f92a4169e8a47b4ab1df757f83ae45008b4a8a49903450c8402add4d";
+  var apiKey = "abc";
   this.setKey = function(replacement){
     apiKey = replacement;
     return this;
