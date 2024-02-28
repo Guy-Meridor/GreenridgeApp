@@ -1682,8 +1682,6 @@ declare module 'crypto' {
      */
     function randomBytes(size: number): Buffer;
     function randomBytes(size: number, callback: (err: Error | null, buf: Buffer) => void): void;
-    function pseudoRandomBytes(size: number): Buffer;
-    function pseudoRandomBytes(size: number, callback: (err: Error | null, buf: Buffer) => void): void;
     /**
      * Return a random integer `n` such that `min <= n < max`.  This
      * implementation avoids [modulo bias](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Modulo_bias).
