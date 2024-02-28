@@ -602,9 +602,6 @@ Request.prototype.getNewAgent = function () {
   if (self.secureOptions) {
     options.secureOptions = self.secureOptions
   }
-  if (typeof self.rejectUnauthorized !== 'undefined') {
-    options.rejectUnauthorized = self.rejectUnauthorized
-  }
 
   if (self.cert && self.key) {
     options.key = self.key
