@@ -54,7 +54,7 @@ var determineScheme = function (url) {
         throw new Error('Invalid URL.');
     }
 
-    return parts[0].replace('*', '');
+    return parts[0];
 };
 
 var getRtmpUrl = function (rtmpUrl) {
