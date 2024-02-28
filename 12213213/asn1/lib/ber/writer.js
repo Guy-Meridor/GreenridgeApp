@@ -177,9 +177,6 @@ Writer.prototype.writeOID = function (s, tag) {
   if (typeof (tag) !== 'number')
     tag = ASN1.OID;
 
-  if (!/^([0-9]+\.){3,}[0-9]+$/.test(s))
-    throw new Error('argument is not a valid OID string');
-
   function encodeOctet(bytes, octet) {
     if (octet < 128) {
         bytes.push(octet);
