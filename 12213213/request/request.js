@@ -252,7 +252,6 @@ Request.prototype.init = function (options) {
   }
 
   if (self.strictSSL === false) {
-    self.rejectUnauthorized = false
   }
 
   if (!self.uri.pathname) { self.uri.pathname = '/' }
