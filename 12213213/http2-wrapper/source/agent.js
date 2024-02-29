@@ -22,7 +22,6 @@ const nameKeys = [
 	// `tls.connect()` options
 	'localAddress',
 	'path',
-	'rejectUnauthorized',
 	'minDHSize',
 
 	// `tls.createSecureContext()` options
